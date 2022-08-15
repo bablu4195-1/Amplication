@@ -1,0 +1,170 @@
+[
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "vanranam",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "vanranam",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "vanranam",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "vanranam",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "vanranam",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "NarachiCorporation",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "vanranam",
+    "resource": "NarachiCorporation",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "NarachiCorporation",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "vanranam",
+    "resource": "NarachiCorporation",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "vanranam",
+    "resource": "NarachiCorporation",
+    "action": "update:any",
+    "attributes": "*,!id"
+  },
+  {
+    "role": "user",
+    "resource": "NarachiCorporation",
+    "action": "update:any",
+    "attributes": "*,!id,!startDate"
+  },
+  {
+    "role": "user",
+    "resource": "NarachiCorporation",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "vanranam",
+    "resource": "NarachiCorporation",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Task",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "vanranam",
+    "resource": "Task",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Task",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "vanranam",
+    "resource": "Task",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Task",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "vanranam",
+    "resource": "Task",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Task",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "vanranam",
+    "resource": "Task",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Task",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "vanranam",
+    "resource": "Task",
+    "action": "read:any",
+    "attributes": "*"
+  }
+]
